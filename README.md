@@ -19,8 +19,9 @@ This project is a RESTful API developed with Spring Boot that helps manage lost 
 
 ## API Endpoints
 
-POST /items  - Add a new lost item
-GET /items   - Retrieve the list of all lost items
+POST /items -Add a new lost item
+
+GET /items  -Retrieve the list of all lost items
 
 ## Example Request
 
