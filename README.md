@@ -29,9 +29,14 @@ POST /items
 
 {
   "itemName": "Wallet",
+  
   "description": "Blue leather wallet",
+  
   "color": "Blue",
+  
   "locationFound": "Library",
+  
   "reportedBy": "Ojasvee Gupta",
+
   "contactNumber": "1234567890"
 }
