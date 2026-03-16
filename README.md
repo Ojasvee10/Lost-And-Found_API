@@ -3,11 +3,11 @@
 This project is a RESTful API developed with Spring Boot that helps manage lost and found items within a college campus.
 
 ## Features
--Report a lost item
--View all reported lost items
--RESTful API built with Spring Boot
--Data management using Spring Data JPA
--Uses an H2 in-memory database for storage
+- Report a lost item
+- View all reported lost items
+- RESTful API built with Spring Boot
+- Data management using Spring Data JPA
+- Uses an H2 in-memory database for storage
 
 ## Technologies
 - Java
