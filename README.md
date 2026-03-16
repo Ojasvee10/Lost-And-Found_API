@@ -1,13 +1,13 @@
 # Lost and Found API
 
-This project is a Spring Boot REST API for managing lost and found items in a college.
+This project is a RESTful API developed with Spring Boot that helps manage lost and found items within a college campus.
 
 ## Features
-- Add lost item
-- Retrieve all lost items
-- REST API built using Spring Boot
-- Data stored using Spring Data JPA
-- H2 in-memory database
+-Report a lost item
+-View all reported lost items
+-RESTful API built with Spring Boot
+-Data management using Spring Data JPA
+-Uses an H2 in-memory database for storage
 
 ## Technologies
 - Java
@@ -19,18 +19,18 @@ This project is a Spring Boot REST API for managing lost and found items in a co
 
 ## API Endpoints
 
-POST /items  
-GET /items
+POST /items  - Add a new lost item
+GET /items   - Retrieve the list of all lost items
 
 ## Example Request
 
 POST /items
 
 {
- "itemName": "Wallet",
- "description": "Black leather wallet",
- "color": "Black",
- "locationFound": "Library",
- "reportedBy": "Yash Uppal",
- "contactNumber": "6387578748"
+  "itemName": "Wallet",
+  "description": "Blue leather wallet",
+  "color": "Blue",
+  "locationFound": "Library",
+  "reportedBy": "Ojasvee Gupta",
+  "contactNumber": "1234567890"
 }
