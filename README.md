@@ -28,6 +28,7 @@ GET /items  -Retrieve the list of all lost items
 POST /items
 
 {
+
   "itemName": "Wallet",
   
   "description": "Blue leather wallet",
@@ -39,4 +40,5 @@ POST /items
   "reportedBy": "Ojasvee Gupta",
 
   "contactNumber": "1234567890"
+  
 }
